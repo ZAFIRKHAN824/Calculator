@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Calculator</title>
+    <link rel="stylesheet" href="calStyle.css">
+</head>
+<body>
+   <h1>CALCULATOR</h1> 
+    <div id="box">
+        <div><input type="text" id="input" autofocus="autofocus" onkeypress="return isNumberKey(event)" /></div>
+        <br>
+        <div class="row">
+            <button class="butt" id="ac">AC</button>
+            <button class="butt" id="off"> ←</button>
+            <button class="butt" id="perc">%</button>
+            <button class="butt" id="divide">/</button>
+
+
+        </div>
+        <div class="row">
+            <button class="butt" id="seven">7</button>
+            <button class="butt" id="eigth">8</button>
+            <button class="butt" id="nine">9</button>
+            <button class="butt" id="multiply">*</button>
+
+        </div>
+        <div class="row">
+            <button class="butt" id="four">4</button>
+            <button class="butt" id="five">5</button>
+            <button class="butt" id="six">6</button>
+            <button class="butt" id="subtract">-</button>
+
+        <div class="row">
+            <button class="butt" id="one">1</button>
+            <button class="butt" id="two">2</button>
+            <button class="butt" id="three">3</button>
+            <button class="butt" id="add">+</button>
+
+        </div>
+        <div class="row">
+            <button class="butt" id="zero">0</button>
+            <button class="butt" id="decimal">.</button>
+            <button class="butt" id="equal">=</button>
+        </div>
+    </div>
+</body>
+<script src="cal.js"></script>
+</html>

@@ -1,0 +1,37 @@
+body{
+    background:url('https://static.vecteezy.com/system/resources/thumbnails/028/246/518/small/stack-of-books-in-the-colored-cover-lay-and-open-book-with-old-pages-on-the-wooden-table-and-pastel-background-education-learning-concept-generative-ai-photo.jpg') ;
+    background-size: 100vw 100vh;
+    text-align: center;
+    /* display: flex; */
+ 
+}
+#box{
+    
+    text-align: center;
+    margin-top: 100px;
+    border: 2px solid black;
+    width: 300px;
+    margin-left: 520px;
+    background-color:rgb(236, 161, 49) ;
+    height: 400px;
+    border-radius: 20px;
+
+}
+
+#input{
+    margin: 40px 0px;
+    border-radius: 5px;
+    height: 40px;
+    width: 180px;
+    font-size: 30px;
+}
+button{
+    /* border-radius: 10%; */
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+    padding: px;
+}
+#zero{
+    width: 90px;
+}
